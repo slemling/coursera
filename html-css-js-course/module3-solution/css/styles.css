@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav > .container{
+    margin: 0px;
+}
+
+.navbar-brand > a > h1{
+    margin: 5px;
+    color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+#collapsable-nav {
+    padding: 0;
+    border: 0;
+
+}
+
+#nav-list {
+    margin:0;
+    padding:0;
+    border: solid black 1px;
+    background-color: #c9e2b3;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+    border: solid black 1px;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+/* END HEADER */
+
+/* HP */
+#box-container{
+    width: 100%;
+}
+#box{
+    background-color: grey;
+}
+@media (max-width: 767px) {
+    #box-container{
+        width: 80%;
+    }
+}
+
