@@ -15,6 +15,7 @@ body {
 
 .navbar-brand > a > h1{
     margin: 5px;
+    padding-left: 15px;
     color: black;
 }
 
@@ -31,6 +32,23 @@ body {
     border: 0;
 
 }
+
+
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 1px;
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+
 
 #nav-list {
     margin:0;
